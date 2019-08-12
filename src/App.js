@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Navbar from "./components/Navbar";
-import Cards from "./components/Cards";
+import Navbar from "./components/navigation/Navbar";
+import Cards from "./components/cards/Cards";
 import ST from "./ST.json";
 import "./App.css";
 
@@ -15,7 +15,7 @@ class App extends Component {
     const STAlreadyClicked =
       this.state.clickedST.indexOf(currentST) > -1;
 
-    if (STAlreadyClicked) {
+    if (STAlreadyClicked){
       this.setState({
         ST: this.state.ST.sort(function (a, b) {
           return 0.5 - Math.random();
@@ -23,7 +23,7 @@ class App extends Component {
         clickedST: [],
         score: 0
       });
-      alert("LOSER!");
+      alert("You lose");
 
     } else {
       this.setState(
@@ -38,7 +38,7 @@ class App extends Component {
         },
         () => {
           if (this.state.score === 12) {
-            alert("You Win!");
+            alert("Congratulations! You Win!");
             this.setState({
               ST: this.state.ST.sort(function (a, b) {
                 return 0.5 - Math.random();

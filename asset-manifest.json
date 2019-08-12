@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Clicky-Game/static/css/main.a1fc2f22.chunk.css",
+    "main.js": "/Clicky-Game/static/js/main.f24879e0.chunk.js",
+    "main.js.map": "/Clicky-Game/static/js/main.f24879e0.chunk.js.map",
+    "runtime~main.js": "/Clicky-Game/static/js/runtime~main.f4beb671.js",
+    "runtime~main.js.map": "/Clicky-Game/static/js/runtime~main.f4beb671.js.map",
+    "static/js/2.1f15b8d5.chunk.js": "/Clicky-Game/static/js/2.1f15b8d5.chunk.js",
+    "static/js/2.1f15b8d5.chunk.js.map": "/Clicky-Game/static/js/2.1f15b8d5.chunk.js.map",
+    "index.html": "/Clicky-Game/index.html",
+    "precache-manifest.df05d3b14133f877173abf420de2bd02.js": "/Clicky-Game/precache-manifest.df05d3b14133f877173abf420de2bd02.js",
+    "service-worker.js": "/Clicky-Game/service-worker.js",
+    "static/css/main.a1fc2f22.chunk.css.map": "/Clicky-Game/static/css/main.a1fc2f22.chunk.css.map",
+    "static/media/Afrojack.jpg": "/Clicky-Game/static/media/Afrojack.60a4e867.jpg",
+    "static/media/djSnake.jpeg": "/Clicky-Game/static/media/djSnake.0f9bbbc2.jpeg",
+    "static/media/kaskade.jpg": "/Clicky-Game/static/media/kaskade.24f6e260.jpg",
+    "static/media/tiesto.jpeg": "/Clicky-Game/static/media/tiesto.06df69c8.jpeg"
+  }
+}
